@@ -10,9 +10,19 @@ if(navToggle){
     })
 }
 
-// pour cacher la list
+// pour cacher la list quand on clique sur x
 if(navClose){
     navClose.addEventListener('click', () =>{
         navMenu.classList.remove('show-menu')
     })
 }
+
+// pour cacher le menu quand on clique sur un lien
+const navLink = document.querySelectorAll('.nav_link')
+
+function linkAction(){
+    const navMenu = document.getElementById('nav-menu')
+    // quand on clique sur un lien on cache le menu
+    navMenu.classList.remove('show-menu')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
