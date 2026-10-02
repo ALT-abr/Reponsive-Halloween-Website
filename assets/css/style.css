@@ -38,6 +38,18 @@
   --z-fixed: 100;
 }
 
+@media screen and (min-width: 992px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
 /* BASE  */
 
 *{
@@ -113,6 +125,17 @@ button{
 
 .main{
   overflow: hidden; /*For animation*/
+}
+
+/* header */
+
+.header{
+  width: 100%;
+  background: var(--body-color); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
 }
 
 /* nav */
@@ -193,3 +216,7 @@ button{
   color: var(--text-color);
 }
 
+/* Show menu */
+.show-menu{
+  top: 0;
+}
