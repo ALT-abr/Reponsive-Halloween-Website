@@ -229,22 +229,22 @@ button{
 /*  */
 
 /* home */
-.home__content{
+.home_content{
   row-gap: 1rem;
 }
 
-.home__group{
+.home_group{
   display: grid;
   position: relative;
   padding-top: 2rem;
 }
 
-.home__img{
+.home_img{
   height: 250px;
   justify-self: center;
 }
 
-.home__indicator{
+.home_indicator{
   width: 8px;
   height: 8px;
   background-color: var(--title-color);
@@ -254,7 +254,7 @@ button{
   right: 2rem;
 }
 
-.home__indicator::after{
+.home_indicator::after{
   content: '';
   position: absolute;
   width: 1px;
@@ -264,36 +264,36 @@ button{
   right: 45%;
 }
 
-.home__details-img{
+.home_details-img{
   position: absolute;
   right: .5rem;
 }
 
-.home__details-title,
-.home__details-subtitle{
+.home_details-title,
+.home_details-subtitle{
   display: block;
   font-size: var(--small-font-size);
   text-align: right;
 }
 
-.home__subtitle{
+.home_subtitle{
   font-size: var(--h3-font-size);
   text-transform: uppercase;
   margin-bottom: var(--mb-1);
 }
 
-.home__title{
+.home_title{
   font-size: var(--biggest-font-size);
   font-weight: var(--font-black);
   line-height: 109%;
   margin-bottom: var(--mb-1);
 }
 
-.home__description{
+.home_description{
   margin-bottom: var(--mb-1);
 }
 
-.home__buttons{
+.home_buttons{
   display: flex;
   justify-content: space-between;
 }
