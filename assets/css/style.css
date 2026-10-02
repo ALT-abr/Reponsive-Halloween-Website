@@ -356,3 +356,28 @@ button{
   align-items: center;
   column-gap: .5rem;
 }
+
+/* categories */
+.category_container{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+}
+
+.category_data{
+  text-align: center;
+}
+
+.category_img{
+  width: 120px;
+  margin-bottom: var(--mb-0-75);
+  transition: .3s;
+}
+
+.category_title{
+  margin-bottom: var(--mb-0-25);
+}
+
+.category_data:hover .category_img{
+  transform: translateY(-.5rem);
+}
+
