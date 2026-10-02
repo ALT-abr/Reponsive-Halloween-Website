@@ -37,3 +37,12 @@ let homeSwiper = new Swiper(".home-swiper", {
         clickable: true,
       },
 })
+
+// pour changer le fond de header quand on scroll
+function scrollHeader(){
+    const header = document.getElementById('header')
+    // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
+    // quand le scroll et plus que 50 viewport hieght, on ajouter la classe scroll-header "scroll-header : on le trouve dans style.css" dans la balise header
+    if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
+}
+window.addEventListener('scroll', scrollHeader)

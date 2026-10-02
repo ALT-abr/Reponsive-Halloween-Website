@@ -221,7 +221,11 @@ button{
   top: 0;
 }
 
-/*  */
+/* changment de fond du header quand on croll */
+.scroll-header{
+  background: var(--container-color);
+}
+
 /*  */
 
 /* home */
