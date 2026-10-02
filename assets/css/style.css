@@ -105,7 +105,7 @@ button{
   padding: 4.5rem 0 2rem;
 }
 
-.section__title{
+.section_title{
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
   text-align: center;
