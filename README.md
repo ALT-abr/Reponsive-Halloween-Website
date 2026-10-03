@@ -4,7 +4,7 @@
 
 🎃 Responsive Design • 👻 Animations • 🕸️ Interactive Sliders
 
----
+![Maquette du site Halloween](./maquette-de-site.png)
 
 ## 👻 Responsive Halloween Website Using HTML, CSS & JavaScript
 
