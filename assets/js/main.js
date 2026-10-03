@@ -74,3 +74,11 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive)
+
+// pour aficher l'icon de scroll up
+function scrollUp(){
+    const scrollUp = document.getElementById('scroll-up');
+    // quand le scroll est superieur a 460 viewport hieght, on ajouter la classe show-scroll a la balise <a> avec l'icon de scrolling up "up-arrow"
+    if(this.scrollY >= 460) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
