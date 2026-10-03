@@ -730,3 +730,14 @@ button{
 .show-scroll{
   bottom: 3rem;
 }
+
+/* ========================> style sur le scrolling bar */
+::-webkit-scrollbar{
+  width: 0.6rem;
+  background: #413e3e;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #272525;
+  border-radius: .5rem;
+}
