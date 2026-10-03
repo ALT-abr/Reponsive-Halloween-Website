@@ -743,7 +743,7 @@ button{
 }
 
 
-/* les breakpoints */
+/* ==============================> les breakpoints */
 /* les petits ecrans 320px */
 @media screen and (max-width: 320px){
   .container{
@@ -874,5 +874,122 @@ button{
     right: initial;
     bottom: 0;
     left: 15%;
+  }
+}
+
+/* les grand ecrans 992px & 1200px */
+@media screen and (min-width: 992px){
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section_title{
+    font-size: var(--h1-font-size);
+    margin-bottom: 3rem;
+  }
+
+  .home_content{
+    padding-top: 9rem;
+    gap: 3rem;
+  }
+  .home_group{
+    padding-top: 0;
+  }
+  .home_img{
+    height: 400px;
+    transform: translateY(-3rem);
+  }
+  .home_indicator{
+    top: initial;
+    right: initial;
+    bottom: 15%;
+    left: 45%;
+  }
+  .home_indicator::after{
+    top: 0;
+    height: 75px;
+  }
+  .home_details-img{
+    bottom: 0;
+    right: 58%;
+  }
+  .home_title{
+    margin-bottom: var(--mb-1-5);
+  }
+  .home_description{
+    margin-bottom: var(--mb-2-5);
+    padding-right: 2rem;
+  }
+
+  .category_container{
+    column-gap: 8rem;
+  }
+  .category_img{
+    width: 200px;
+  }
+
+  .about_container{
+    column-gap: 7rem;
+  }
+  .about_img{
+    width: 350px;
+  }
+  .about_description{
+    padding-right: 2rem;
+  }
+
+  .trick_container{
+    gap: 3.5rem;
+  }
+  .trick_content{
+    border-radius: 1.5rem;
+  }
+  .trick_img{
+    width: 110px;
+  }
+  .trick_title{
+    font-size: var(--h3-font-size);
+  }
+
+  .discount_container{
+    column-gap: 7rem;
+  }
+
+  .new_content{
+    width: 310px;
+    border-radius: 1rem;
+    padding: 2rem 0;
+  }
+  .new_img{
+    width: 150px;
+  }
+  .new_img,
+  .new_subtitle{
+    margin-bottom: var(--mb-1);
+  }
+  .new_title{
+    font-size: var(--h3-font-size);
+  }
+
+  .footer_copy{
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .home_img{
+    height: 420px;
+  }
+  .swiper-pagination{
+    margin-top: var(--mb-2-5);
+  }
+  .footer_img-one{
+    width: 120px;
+  }
+  .footer_img-two{
+    width: 180px;
+    top: 30%;
+    left: -3%;
   }
 }
