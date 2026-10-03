@@ -82,3 +82,17 @@ function scrollUp(){
     if(this.scrollY >= 460) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+
+// scroll reveal animation
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true
+})
+
+sr.reveal(`.home-swiper, .new-swiper, .newsletter_container`)
+sr.reveal(`.category_data, .trick_content, .footer_content`,{interval: 100})
+sr.reveal(`.about_data, .discount_img`,{origin: 'left'})
+sr.reveal(`.about_img, .discount_data`,{origin: 'right'})
