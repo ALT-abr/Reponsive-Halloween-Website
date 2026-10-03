@@ -16,7 +16,6 @@
 - Compatible with mobile, tablet and desktop devices.
 - Clean and pleasant Halloween-themed user interface.
 
----
 
 ## 🛠️ Technologies & Resources
 
@@ -28,7 +27,6 @@
 - **[Boxicons](https://boxicons.com/)** — interface icons
 - **[Google Fonts](https://fonts.google.com/)** — Poppins font
 
----
 
 ## 🧱 Website Structure
 
@@ -49,6 +47,5 @@ Footer
 └── Links and social networks
 ```
 
----
 
 🎃 **Built with HTML, CSS & JavaScript.**
